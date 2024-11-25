@@ -1,0 +1,376 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #5A9CD9;
+   
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+  
+}
+
+
+.container{
+    margin: auto;
+    width: 1469px;
+    display: block;
+ 
+}
+
+.square-bl{
+    width: 70px ;
+    height: 70px;
+    border-radius: 12px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+
+}
+
+.header-buttons ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-flex{ 
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-buttons a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.header-buttons a:hover{
+    color: white;
+    
+}
+
+.header-buttons li{
+    margin-right: 50px;
+    list-style: none;
+}
+
+.header-buttons span{
+    font-weight: 700;
+}
+    .circle-header{
+        width: 52px;
+        height: 52px;
+        background-color: black;
+        border-radius: 100%;
+
+        margin-right: 0px;
+        
+        
+
+    }
+
+.circle-header svg{ 
+    position: relative;
+    left: 7px;
+    top: 7px;
+}
+
+.header{
+    padding: 10px;
+}
+
+.magazin a{
+    padding-right: 5px;
+}
+
+.magazin-kontrabast{
+    padding-right: 10px;
+}
+
+li path{
+    padding: 10px 0 0 5px;
+}
+
+/* CONTENT */
+ .content-name h1{
+    font-size: 84px;
+    font-weight: 900;
+    margin: 0;
+ }
+
+ .content-text p{
+    font-size: 36px;
+    font-weight: 200;
+ }
+
+ .home-flex{
+    display: flex;
+    align-items: center;
+ }
+
+ .content-btn {
+    width: 209px;
+    height: 94px;
+    border-radius: 12px;
+    border-color: white;
+    border: 3px solid white;
+    background-color: #547299;
+    cursor: pointer;
+ }
+
+ .content-btn:hover
+ {
+    color: white;
+ }
+ 
+
+ .content-btn p{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    margin: 15px auto;
+ }
+
+ .content-btn a{
+    text-decoration: none;
+    color: black;
+ }
+ /* TEAMS==================================================== */
+
+.teams{
+    background-color: #D9D9D9;
+    padding-top: 69.720px;
+    padding-bottom: 100px;
+}
+
+
+.heading-teams h1{
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 84px;
+    text-align: center;
+}
+
+ .card-1{
+    width: 340px;
+    height: 466px ;
+    background-color: #547299;
+    border-radius: 30px;
+    
+    margin-right: 20px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+ }
+
+.card-1:hover{
+    transform: scale(1.1
+    );
+    
+}
+
+ .teams-flex{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .card-1 p{ 
+    font-size: 38px;
+    font-weight: 200 ;
+    text-align: center;
+    margin: 20px 0;
+ }
+
+ .img-pxg{
+    top: 30px;
+    position: relative;
+    margin-bottom: 35px;
+ }
+
+ /* PLAYERS ====================================================================*/
+
+ .players{
+    
+    
+    padding-bottom: 100px;
+}
+
+.heading-players h1{
+    font-weight: 900;
+    font-size: 84px;
+    text-align: center;
+}
+ 
+.players-flex{
+    display: flex;
+}
+
+ .card-2{
+    width: 340px;
+    height: 466px ;
+    background-color: #ffffff;
+    border-radius: 30px;
+    
+    margin-right: 20px;
+    text-align: center;
+    transition: 0.5s;
+    
+ }
+
+.card-2 a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.card-2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+ .card-2 img{
+    margin-top: 20px;
+ }
+
+.card-2 p{
+    font-size: 38px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+
+
+/* RIN========================================================= */
+
+.Rin{
+    background-color: #D9D9D9;
+    
+    
+}
+
+.Rin-flex{
+    display: flex;
+    
+}
+
+.Rin-right{
+    margin-left: 27px;
+}
+
+.Rin-right h1{
+    font-size: 84px;
+    font-weight: 900;
+}
+
+.Rin-right p{
+    font-weight: 200;
+    font-size: 32px;
+}
+/* YUKIMIYA========================================================== */
+.Yukimiya-flex{
+    display: flex;
+}
+
+.Yukimiya-right h1{
+    font-size: 84px;
+    font-weight: 900;
+}
+
+.Yukimiya-right p{
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.Yukimiya-left{
+    margin-left: 27px;
+}
+/* CHIGIRI================================================================== */
+
+.Chigiri{
+    background-color: #D9D9D9;
+}
+
+.Chigiri-flex{
+    display: flex;
+}
+
+.Chigiri-right h1{
+    font-size: 84px;
+    font-weight: 900;
+}
+
+.Chigiri-right p{
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.Chigiri-right{
+    margin-left: 27px;
+}
+
+/* SAE=============================================================================== */
+
+.Sae-flex{
+    display: flex;
+}
+
+.Sae-left h1{
+    font-size: 84px;
+    font-weight: 900;
+}
+
+.Sae-left p{
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.Sae-left{
+    margin-right: 27px;
+}
+
+/* FOOTER================================================================================= */
+
+.footer{
+    background-color: #D9D9D9;
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+.footer-reactions p{
+    font-size: 32px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.footer-site a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-site p{
+    font-size: 24px;
+    font-weight: 200;
+
+}
+
+.footer-icons svg{
+    margin-right: 111px;
+}
+
+.footer-icons{
+    position: relative;
+    left: 53px;
+}
+
